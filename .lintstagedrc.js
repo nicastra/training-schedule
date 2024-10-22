@@ -1,7 +1,7 @@
 module.exports = {
   '*.{js,jsx,ts,tsx}': [
     'prettier --write',
-    // 'eslint --fix',
+    'eslint --fix',
     // 'jest --bail --findRelatedTests',
   ],
   '*.{json,md}': ['prettier --write'],
